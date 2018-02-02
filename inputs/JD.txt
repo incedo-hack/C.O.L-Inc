@@ -1,41 +1,40 @@
 Reference Code: 
-ITSL/Java/1217  
+ITSL/UI/1217  
 Job Title: 
-Java Developer  
+UI Developer  
 Job Description: 
-Knowledge, Skills & Abilities Required:
+We are looking for an individual to augment our UI focused engineering teams. You will help design and develop features and tests targeted for various browsers. We are looking for someone who is motivated to lead and continuously improve our visual patterns as manifested in code. Our teams are already competent in our selected technologies, but are eager to have a new member join the team to develop UIs that are visually appealing and intuitive.
 
-•Java mastery.
-•Webserver, javascript, and UI design/development.
-•Typeless languages like python, ruby, andclojure.
-•Automation frameworks.
-•Hands-on knowledge and configuration of multiple operating systems (i.e. Unix,Liux, Windows and Mac).
-•Knowledge and experience in the field of security.
-•Secure software development.
-•Build, source control, and deployment tools.
+Responsibilities
+• Author well designed, tested, efficient Javascript code using best software development practices.
+• Design well-formed semantic HTML and scalable, collision-free component styles.
+• Collaborate with User Experience engineers and Product engineers to implement user workflows.
 
-Job duties will consist of:
+Required Skills
+• Expert knowledge of Javascript and the JS ecosystem.
+• Comprehensive knowledge of browser & nodejs runtimes.
+• Strong competency interacting with browser & nodejs APIs.
+• Mastery of npm, JS library structure, JS library packaging, & JS library publishing.
+• Demonstrated competency building web applications with bundling tools such as browserify or webpack.
+• Able to quickly prototype in HTML5, CSS3, and Javascript.
+• Understands UI design architectures, including, but not limited to Event Sourcing, MVC, MVVM, etc.
+• Excellent comprehension of HTTP, REST, and web communication infrastructure.
+• Strong communication ability and collaborative skills.
 
-• Designing, planning, and implementing features.
-• Innovating.
-• Creating test automation.
-• Resolving customer issues.
-• Maintaining infrastructure.  
+Additional considerations
+• Experience with JS UI tooling like React, Redux & VanillaJS
+• Experience with CSS, SASS, LESS, and/or CSS-via-JS strategies
+• Experience with Agile development methodologies
+• Experience with design and front end development experience in enterprise software products
+• Familiarity with Design for i18n
+• Familiarity with Design for accessibility  
 Key Skills: 
-Java,Dockers, SQL, Graddle, microservices  
+Javascript, OOJS, HTML, CSS  
 Desired Candidate Profile: 
-• Work in an organization with mature practices.
-• Interact with customers and other departments.
-• Collaborate in pairs and small groups.
-• Work independently/Self-starter.
-• Advocate for process improvement.
-• Courageously refactor.
-• Communicate clearly with technical and non-technical audience.
-• Contribute to testing, documentation and release activities.
-• Be a creative problem-solver.  
+  
 Location: 
 Pune  
 Required Experience: 
 5-8 yrs  
 Positions: 
-6  
+3  

@@ -14,6 +14,7 @@ class JDparser(object):
             data = myfile.read()
         #print(data)
         splitted_data = data.split("\n")
+        dct['Job_Description'] = self.parseJobDescription(data)
         for position, item in enumerate(splitted_data):
             #print(position,item)
             try:
@@ -27,12 +28,24 @@ class JDparser(object):
                     dct['location'] = splitted_data[position+1].replace('Â\xa0','').strip()
                 elif checkitem=='Required Experience':
                     dct['Required_Experience'] = splitted_data[position+1].replace('Â\xa0','').strip()
+                elif checkitem=='Job Description':
+                    pass
+                    #dct['Job_Description'] = self.parseJobDescription(splitted_data[position+1].replace('Â\xa0','').strip())    
 
             except:
                 pass    
         #print splitted_data
         return dct
-    
+    def parseJobDescription(self,job_descriptio):
+        words = obj.removeCommonWords(job_descriptio)
+        not_an_englishWords = []
+        for word_to_test in words:
+            if not wordnet.synsets(word_to_test):
+                if len(word_to_test) > 1:
+                    not_an_englishWords.append(word_to_test.replace('â\xa0','').strip())
+        
+        return not_an_englishWords
+            
     def removeCommonWords(self, sentence):
         try:
             if sentence is not None:
@@ -51,13 +64,5 @@ if __name__ == '__main__':
 
     obj = JDparser()
     print(obj.readJd())
-    '''with open('D:\workspace\C.O.L.Inc\inputs/JD.txt', 'r') as myfile:
-        data = myfile.read()
-        words = obj.removeCommonWords(data)
-        not_an_englishWords = []
-        for word_to_test in words:
-            if not wordnet.synsets(word_to_test):
-                not_an_englishWords.append(word_to_test)
-                
-        print(not_an_englishWords)'''         
+         
          
