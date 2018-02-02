@@ -1,0 +1,41 @@
+Reference Code: 
+ITSL/Java/1217  
+Job Title: 
+Java Developer  
+Job Description: 
+Knowledge, Skills & Abilities Required:
+
+•Java mastery.
+•Webserver, javascript, and UI design/development.
+•Typeless languages like python, ruby, andclojure.
+•Automation frameworks.
+•Hands-on knowledge and configuration of multiple operating systems (i.e. Unix,Liux, Windows and Mac).
+•Knowledge and experience in the field of security.
+•Secure software development.
+•Build, source control, and deployment tools.
+
+Job duties will consist of:
+
+• Designing, planning, and implementing features.
+• Innovating.
+• Creating test automation.
+• Resolving customer issues.
+• Maintaining infrastructure.  
+Key Skills: 
+Java,Dockers, SQL, Graddle, microservices  
+Desired Candidate Profile: 
+• Work in an organization with mature practices.
+• Interact with customers and other departments.
+• Collaborate in pairs and small groups.
+• Work independently/Self-starter.
+• Advocate for process improvement.
+• Courageously refactor.
+• Communicate clearly with technical and non-technical audience.
+• Contribute to testing, documentation and release activities.
+• Be a creative problem-solver.  
+Location: 
+Pune  
+Required Experience: 
+5-8 yrs  
+Positions: 
+6  
