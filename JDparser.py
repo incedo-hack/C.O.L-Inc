@@ -42,7 +42,11 @@ class JDparser(object):
         for word_to_test in words:
             if not wordnet.synsets(word_to_test):
                 if len(word_to_test) > 1:
-                    not_an_englishWords.append(word_to_test.replace('â\xa0','').strip())
+                    filter_word = word_to_test.replace('â','').strip()
+                    filter_word = filter_word.replace('€¢','').strip()
+                    filter_word = filter_word.replace('€™','').strip()
+                    filter_word = filter_word.replace('€','').strip()
+                    not_an_englishWords.append(filter_word)
         
         return not_an_englishWords
             
